@@ -11,7 +11,7 @@ Usage:
 
 Examples:
   csv-gap-finder timeseries.csv -i 1m -d ";" -t microsecond -c 1
-  grep BTCUSDT timeseries.csv | csv-gap-finder -i 1m -d ";l"
+  grep BTCUSDT timeseries.csv | csv-gap-finder -i 1m -d ";"
 
 Options:
   -i --interval <duration>         Interval between rows. Examples: 1m, 15m, 1d, 30d
@@ -19,7 +19,6 @@ Options:
   -t --timespec <timespec>         Timespec of timestamps. Examples: second, millisecond, microsecond. [default: second]
   -c --column <index>              Index of timestamp column. [default: 0]
   -h --help                        Show this screen.
-  --version                        Show version.`
 ```
 
 # LICENSE
